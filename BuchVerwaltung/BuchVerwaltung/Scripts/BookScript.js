@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
     initTree();
 })
 
@@ -16,7 +16,7 @@ function initTree() {
         url: "Home/LadeGrid",
         datatype: "json",
         mtype: "GET",
-        colNames: ["ID", "Titel", "Autor", "Verlag", "Sprache", "Seiten"],
+        colNames: ["IDa", "Titel", "Autor", "Verlag", "Sprache", "Seiten"],
         colModel: [
             { name: "ID", index: "ID", editable: false, hidden: false, width: 150 },
             { name: "Titel", index: "Titel", editable: false, hidden: false, width: 150 },
